@@ -1,0 +1,4 @@
+user_login,user_email,display_name,role
+coord.web,coord.web@example.com,Coordinación web,editor
+profe.redes,profe.redes@example.com,Profe de Redes,author
+profe.sistemas,profe.sistemas@example.com,Profe de Sistemas,author

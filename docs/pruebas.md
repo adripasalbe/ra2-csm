@@ -6,7 +6,7 @@ Fecha: 23/11/2026 · Entorno: VM Ubuntu (VirtualBox) · IP de la VM: 10.0.2.15
 |---|---|---|
 | Servicios en marcha | docker compose ps: nginx, wordpress y db en estado Up (wpcli no aparece: solo existe mientras ejecuta un comando) | Sí |
 | Sitio y panel | / carga el sitio y /wp-admin/ permite entrar como adrian (tras corregir absolute_redirect en nginx) | Sí |
-| Subida de ficheros | PENDIENTE: subir una imagen de varios MB desde Medios | PENDIENTE |
+| Subida de ficheros | Captura PNG de 2,6 MB subida desde Medios sin error (supera el límite de 2 MB de PHP por defecto: uploads.ini funciona); sigue accesible tras down/up | Sí |
 | Enlaces permanentes | curl a /entrada-de-prueba/ devuelve HTTP 200, no 404 | Sí |
 | Persistencia (down/up) | docker compose down y up -d sin -v: siguen las entradas 16, 4 y 1 | Sí |
 | Seguridad (403) | curl -I /xmlrpc.php devuelve 403 Forbidden | Sí |

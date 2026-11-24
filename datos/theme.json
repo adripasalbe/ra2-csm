@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "styles": {
+    "color": {
+      "background": "#F4F7FA",
+      "text": "#21295C"
+    },
+    "elements": {
+      "link": {
+        "color": { "text": "#1B6B8A" }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+== Después (2026-11-24) ==
+7.1.5
+name	version	update
+contact-form-7	6.2.6	none
+cookie-law-info	3.5.9	none
+flamingo	2.6.4	none
+simple-history	5.36.0	none
+CONTAINER               REPOSITORY          TAG                 PLATFORM            IMAGE ID            SIZE                CREATED
+ra2-stack-db-1          mariadb             10.11               linux/amd64         7d829180b5b2        455MB               12 days ago
+ra2-stack-nginx-1       nginx               stable              linux/amd64         42c68eab6f7e        239MB               2 weeks ago
+ra2-stack-wordpress-1   wordpress           7.1-php8.4-fpm      linux/amd64         ddd5e581b021        1.11GB              5 hours ago
+PHP 8.4.28 (cli) (built: Nov 24 2026 04:23:39) (NTS)
